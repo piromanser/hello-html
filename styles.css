@@ -1,4 +1,36 @@
-.title {
-    font-size: 55px;
+body {
+    margin: 0;
     font-family: sans-serif;
+    background: darkgray;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    padding: 15px 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.menu-item:hover {
+    background: lightgray;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider {
+    background: black;
+    color: white;
 }
